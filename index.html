@@ -5,13 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slide.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css" integrity="sha512-OdEXQYCOldjqUEsuMKsZRj93Ht23QRlhIb8E/X0sbwZhme8eUw6g8q7AdxGJKakcBbv7+/PX0Gc2btf7Ru8cZA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>CAR WASH</title>
 </head>
 <body>
-    <nav class="nav">
 
+    <div class="top">
+        
+        <span class="top_phone">
+            <img class="top_social_icon" src="./img/whatssap.png" alt="alternatetext">
+            <a href="#">654785552</a>
+        </span>
+
+        <div class="top_social">
+            <img class="top_social_icon" src="./img/logofacebook.png" alt="alternatetext">
+            <img class="top_social_icon" src="./img/logoinstagram.png" alt="alternatetext">
+        </div>
+    </div>
+
+    <nav class="nav">
         <input class="nav_check" type='checkbox' id='check'>
         <label class="nav_checkbtn" for="check" >
             <i class="fas fa-bars"></i>
@@ -36,6 +50,31 @@
         </ul>
     </nav>
 
+
+
+    <div class="slide_container">
+        <div class="miSlider fade">
+            <img src="./img/slide-3.jpg" alt=''>
+        </div>
+        <div class="miSlider fade">
+            <img src="./img/slide-2.jpg" alt=''>
+        </div>
+        <div class="miSlider fade">
+            <img src="./img/slide-1.jpg" alt=''>
+        </div>
+
+        <div class="direcciones">
+            <a href="#" class="artas" onclick="avanzaSlide(-1)">&#10094</a>
+            <a href="#" class="siguinte" onclick="avanzaSlide(1)">&#10095</a>
+        </div>
+
+        <div class="barras">
+            <span class="barra active" onclick="posicionSlide(1)"></span>
+            <span class="barra" onclick="posicionSlide(2)"></span>
+            <span class="barra" onclick="posicionSlide(3)"></span>
+        </div>
+    </div>
+    <script src='./main.js' ></script>
 
 
 
