@@ -7,8 +7,12 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="slide.css">
     <link rel="stylesheet" href="cards.css">
+    <link rel="stylesheet" href="./service-area.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css" integrity="sha512-OdEXQYCOldjqUEsuMKsZRj93Ht23QRlhIb8E/X0sbwZhme8eUw6g8q7AdxGJKakcBbv7+/PX0Gc2btf7Ru8cZA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/85188/jquery.ripples-min.js"></script>
     <title>CAR WASH</title>
 </head>
 <body>
@@ -80,7 +84,68 @@
         </div>
     </div>
 
+    <!---------------------------------4 cards service area---------------------------------------->
 
+    <div class="container1">
+        <div class="service-area">
+              
+              <div class="service-area_box">
+      
+                  <img class="service-area_image" src="./icons/icon1.svg" alt="">
+      
+                  <div class="service-area_text">
+                      <h3 class="service-area_title">LAVADO RAPIDO</h3>
+                      <P>En nuestro propio taller de lavado</P>
+      
+                  </div>
+              </div>
+          
+          
+          <div class="service-area_box">
+      
+                  <img class="service-area_image" src="./icons/icon2.svg" alt="">
+      
+                  <div class="service-area_text">
+                      <h3 class="service-area_title">LAVADO RAPIDO</h3>
+                      <P>En nuestro propio taller de lavado</P>
+      
+                  </div>
+              </div>
+          
+          
+          <div class="service-area_box">
+      
+                  <img class="service-area_image" src="./icons/icon3.svg" alt="">
+      
+                  <div class="service-area_text">
+                      <h3 class="service-area_title">LAVADO RAPIDO</h3>
+                      <P>En nuestro propio taller de lavado</P>
+      
+                  </div>
+              </div>
+          
+          
+          <div class="service-area_box">
+      
+                  <img class="service-area_image" src="./icons/icon5.svg" alt="">
+      
+                  <div class="service-area_text">
+                      <h3 class="service-area_title">LAVADO RAPIDO</h3>
+                      <P>En nuestro propio taller de lavado</P>
+      
+                  </div>
+              </div>
+      </div>
+      
+      
+      <script>
+          
+          $('.container1').ripples({
+              resolution: 400
+            });
+            </script>
+
+</div>
     <!------------------------------- seccion cads --------------------------------------->
 
 
@@ -172,7 +237,7 @@
                 <img src="./img/f6.jpg" alt="">
                 <svg height="100%" width="100%" id="svg" viewBox="0 0 1440 700" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
                     <path d="M 0,700 C 0,700 0,233 0,233 C 92.17948717948715,260.71794871794873 184.3589743589743,288.43589743589746 258,303 C 331.6410256410257,317.56410256410254 386.74358974358984,318.97435897435895 460,299 C 533.2564102564102,279.02564102564105 624.6666666666666,237.66666666666666 702,233 C 779.3333333333334,228.33333333333334 842.5897435897435,260.35897435897436 931,273 C 1019.4102564102565,285.64102564102564 1132.9743589743591,278.8974358974359 1222,269 C 1311.0256410256409,259.1025641025641 1375.5128205128203,246.05128205128204 1440,233 C 1440,233 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#88F1FF66" class="transition-all duration-300 ease-in-out delay-150"></path>
-                    <path d="M 0,700 C 0,700 0,466 0,466 C 85.2948717948718,468.5487179487179 170.5897435897436,471.0974358974359 246,451 C 321.4102564102564,430.9025641025641 386.93589743589746,388.1589743589744 471,399 C 555.0641025641025,409.8410256410256 657.6666666666666,474.26666666666665 737,476 C 816.3333333333334,477.73333333333335 872.3974358974358,416.774358974359 954,416 C 1035.6025641025642,415.225641025641 1142.7435897435896,474.6358974358974 1228,493 C 1313.2564102564104,511.3641025641026 1376.628205128205,488.6820512820513 1440,466 C 1440,466 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#ffffffff" class="transition-all duration-300 ease-in-out delay-150"></path></svg> -->
+                    <path d="M 0,700 C 0,700 0,466 0,466 C 85.2948717948718,468.5487179487179 170.5897435897436,471.0974358974359 246,451 C 321.4102564102564,430.9025641025641 386.93589743589746,388.1589743589744 471,399 C 555.0641025641025,409.8410256410256 657.6666666666666,474.26666666666665 737,476 C 816.3333333333334,477.73333333333335 872.3974358974358,416.774358974359 954,416 C 1035.6025641025642,415.225641025641 1142.7435897435896,474.6358974358974 1228,493 C 1313.2564102564104,511.3641025641026 1376.628205128205,488.6820512820513 1440,466 C 1440,466 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#ffffffff" class="transition-all duration-300 ease-in-out delay-150"></path></svg> 
                 <!-- <svg height="100%" width="100%" id="svg" viewBox="0 0 1440 700" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><path d="M 0,700 C 0,700 0,233 0,233 C 92.17948717948715,260.71794871794873 184.3589743589743,288.43589743589746 258,303 C 331.6410256410257,317.56410256410254 386.74358974358984,318.97435897435895 460,299 C 533.2564102564102,279.02564102564105 624.6666666666666,237.66666666666666 702,233 C 779.3333333333334,228.33333333333334 842.5897435897435,260.35897435897436 931,273 C 1019.4102564102565,285.64102564102564 1132.9743589743591,278.8974358974359 1222,269 C 1311.0256410256409,259.1025641025641 1375.5128205128203,246.05128205128204 1440,233 C 1440,233 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#ffffff88" class="transition-all duration-300 ease-in-out delay-150"></path><path d="M 0,700 C 0,700 0,466 0,466 C 85.2948717948718,468.5487179487179 170.5897435897436,471.0974358974359 246,451 C 321.4102564102564,430.9025641025641 386.93589743589746,388.1589743589744 471,399 C 555.0641025641025,409.8410256410256 657.6666666666666,474.26666666666665 737,476 C 816.3333333333334,477.73333333333335 872.3974358974358,416.774358974359 954,416 C 1035.6025641025642,415.225641025641 1142.7435897435896,474.6358974358974 1228,493 C 1313.2564102564104,511.3641025641026 1376.628205128205,488.6820512820513 1440,466 C 1440,466 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#ffffffff" class="transition-all duration-300 ease-in-out delay-150"></path></svg> -->
             </div>
             <div class="seccion_content">

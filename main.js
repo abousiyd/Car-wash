@@ -35,8 +35,7 @@ function muestraSlides(n) {
         barras[i].className = barras[i].className.replace('active', '')
     }
 
-    console.log(slides,11)
-    console.log(barras,22)
+
 
     slides[indice-1].style.display = 'block';
     barras[indice-1].className += ' active'
